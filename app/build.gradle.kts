@@ -49,7 +49,8 @@ dependencies {
 
     //Vulnerable dependency
     implementation("com.google.code.gson:gson:2.8.6")
-    implementation("com.squareup.okhttp3:logging-interceptor:3.11.0")
+    implementation("com.squareup.okhttp3:okhttp:3.12.0")
+//    implementation("com.squareup.okhttp3:logging-interceptor:3.11.0")
 
     implementation("com.github.bumptech.glide:glide:4.12.0")
 //    kapt("com.github.bumptech.glide:compiler:4.12.0")
