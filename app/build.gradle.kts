@@ -47,9 +47,5 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:1.8.5")
     implementation("com.google.code.gson:gson:2.10.1")
 
-    //Vulnerable dependency
-    implementation("com.squareup.okhttp3:okhttp:3.12.0")
-
     implementation("com.github.bumptech.glide:glide:4.12.0")
-//    kapt("com.github.bumptech.glide:compiler:4.12.0")
 }
