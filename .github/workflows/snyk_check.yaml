@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - '**'   # Run on every push to any branch
-  pull_request:
-    branches:
-      - main   # Run on PRs to main branch
 
 jobs:
   snyk-test:
